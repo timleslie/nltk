@@ -347,7 +347,7 @@ class BoxerOutputDrsParser(DrtParser):
         elif tok == 'whq':
             conds = [self._handle_whq()]
         elif tok == 'duplex':
-                conds = [self._handle_duplex()]
+            conds = [self._handle_duplex()]
 
         else:
             conds = []

@@ -158,7 +158,7 @@ class MaltParser(ParserI):
 
         with tempfile.NamedTemporaryFile(prefix='malt_input.conll.',
               dir=self.working_dir, mode='w', delete=False) as input_file:
-              with tempfile.NamedTemporaryFile(prefix='malt_output.conll.',
+            with tempfile.NamedTemporaryFile(prefix='malt_output.conll.',
                      dir=self.working_dir, mode='w', delete=False) as output_file:
                 # Convert list of sentences to CONLL format.
                 for line in taggedsents_to_conll(sentences):

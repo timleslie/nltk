@@ -64,7 +64,7 @@ class StanfordTagger(TaggerI):
 
     @property
     def _cmd(self):
-      raise NotImplementedError
+        raise NotImplementedError
 
     def tag(self, tokens):
         # This function should return list of tuple rather than list of list 

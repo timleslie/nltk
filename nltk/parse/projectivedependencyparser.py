@@ -298,9 +298,9 @@ class ProbabilisticProjectiveDependencyParser(object):
             for j in range(i-2,-1,-1):
                 for k in range(i-1,j,-1):
                     for span1 in chart[k][j]._entries:
-                            for span2 in chart[i][k]._entries:
-                                for newspan in self.concatenate(span1, span2):
-                                    chart[i][j].add(newspan)
+                        for span2 in chart[i][k]._entries:
+                            for newspan in self.concatenate(span1, span2):
+                                chart[i][j].add(newspan)
         trees = []
         max_parse = None
         max_score = 0

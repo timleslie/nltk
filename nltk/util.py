@@ -252,11 +252,11 @@ def guess_encoding(data):
         else:
             break
     if not successful_encoding:
-         raise UnicodeError(
+        raise UnicodeError(
         'Unable to decode input data.  Tried the following encodings: %s.'
         % ', '.join([repr(enc) for enc in encodings if enc]))
     else:
-         return (decoded, successful_encoding)
+        return (decoded, successful_encoding)
 
 
 ##########################################################################

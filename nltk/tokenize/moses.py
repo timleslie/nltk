@@ -348,7 +348,7 @@ class MosesTokenizer(TokenizerI):
         # (Language-specific) apostrophe tokenization.
         if self.lang == 'en':
             for regexp, subsitution in self.ENGLISH_SPECIFIC_APOSTROPHE:
-                 text = re.sub(regexp, subsitution, text)
+                text = re.sub(regexp, subsitution, text)
         elif self.lang in ['fr', 'it']:
             for regexp, subsitution in self.FR_IT_SPECIFIC_APOSTROPHE:
                 text = re.sub(regexp, subsitution, text)

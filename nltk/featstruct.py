@@ -755,7 +755,7 @@ class FeatDict(FeatStruct, dict):
                                 (fname, reentrance_ids[id(fval)]))
             elif (display == 'prefix' and not prefix and
                   isinstance(fval, (Variable, string_types))):
-                    prefix = '%s' % fval
+                prefix = '%s' % fval
             elif display == 'slash' and not suffix:
                 if isinstance(fval, Variable):
                     suffix = '/%s' % fval.name

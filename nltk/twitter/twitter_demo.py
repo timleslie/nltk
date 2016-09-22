@@ -257,12 +257,12 @@ def expand_tweetids_demo():
     hydrated = client.expand_tweetids(ids_f)
 
     for tweet in hydrated:
-            id_str = tweet['id_str']
-            print('id: {}'.format(id_str))
-            text = tweet['text']
-            if text.startswith('@null'):
-                text = "[Tweet not available]"
-            print(text + '\n')
+        id_str = tweet['id_str']
+        print('id: {}'.format(id_str))
+        text = tweet['text']
+        if text.startswith('@null'):
+            text = "[Tweet not available]"
+        print(text + '\n')
 
 
 
