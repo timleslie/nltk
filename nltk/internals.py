@@ -720,9 +720,9 @@ def find_jar(name_pattern, path_to_jar=None, env_vars=(),
 
                 
 def find_jars_within_path(path_to_jars):
-	return [os.path.join(root, filename) 
-			for root, dirnames, filenames in os.walk(path_to_jars) 
-			for filename in fnmatch.filter(filenames, '*.jar')]
+    return [os.path.join(root, filename) 
+            for root, dirnames, filenames in os.walk(path_to_jars) 
+            for filename in fnmatch.filter(filenames, '*.jar')]
 
 def _decode_stdoutdata(stdoutdata):
     """ Convert data read from stdout/stderr to unicode """

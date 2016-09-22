@@ -77,8 +77,8 @@ def load_parser(grammar_url, trace=0,
         return parser(grammar, trace=trace, chart_class=chart_class)
 
 def taggedsent_to_conll(sentence):
-	"""
-	A module to convert a single POS tagged sentence into CONLL format.
+    """
+    A module to convert a single POS tagged sentence into CONLL format.
 	
 	>>> from nltk import word_tokenize, pos_tag
 	>>> text = "This is a foobar sentence."
