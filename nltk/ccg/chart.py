@@ -198,7 +198,7 @@ class CCGChartParser(ParserI):
     def lexicon(self):
         return self._lexicon
 
-   # Implements the CYK algorithm
+    # Implements the CYK algorithm
     def parse(self, tokens):
         tokens = list(tokens)
         chart = CCGChart(list(tokens))

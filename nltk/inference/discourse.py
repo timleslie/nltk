@@ -460,7 +460,7 @@ class DiscourseTester(object):
         for e in self._background:
             print(str(e))
 
-   ###############################
+    ###############################
     # Misc
     ###############################
 
