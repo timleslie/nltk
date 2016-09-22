@@ -45,7 +45,7 @@ class SentiWordNetCorpusReader(CorpusReader):
     def __init__(self, root, fileids, encoding='utf-8'):
         """
         Construct a new SentiWordNet Corpus Reader, using data from
-   	the specified file.
+        the specified file.
         """        
         super(SentiWordNetCorpusReader, self).__init__(root, fileids,
                                                   encoding=encoding)

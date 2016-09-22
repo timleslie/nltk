@@ -83,18 +83,18 @@ similarity_matrix = {
 # Relative weights of phonetic features (Kondrak 2002: 55)          
 salience = {
             'syllabic': 5, 
-			'place': 40, 
-			'manner': 50, 
-			'voice': 5, # decreased from 10
-			'nasal': 20, # increased from 10
-			'retroflex': 10, 
-			'lateral': 10, 
-			'aspirated': 5,
-			'long': 0, # decreased from 1 
-			'high': 3, # decreased from 5
-			'back': 2, # decreased from 5
-			'round': 2 # decreased from 5
-			}
+                     'place': 40, 
+                     'manner': 50, 
+                     'voice': 5, # decreased from 10
+                     'nasal': 20, # increased from 10
+                     'retroflex': 10, 
+                     'lateral': 10, 
+                     'aspirated': 5,
+                     'long': 0, # decreased from 1 
+                     'high': 3, # decreased from 5
+                     'back': 2, # decreased from 5
+                     'round': 2 # decreased from 5
+                     }
             
 # (Kondrak 2002: 59-60)        
 feature_matrix = {

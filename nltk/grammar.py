@@ -1509,8 +1509,8 @@ if __name__ == '__main__':
 
 __all__ = ['Nonterminal', 'nonterminals',
            'CFG', 'Production',
-	   'PCFG', 'ProbabilisticProduction',
-	   'DependencyGrammar', 'DependencyProduction',
+       'PCFG', 'ProbabilisticProduction',
+       'DependencyGrammar', 'DependencyProduction',
            'ProbabilisticDependencyGrammar',
-	   'induce_pcfg', 'read_grammar']
+       'induce_pcfg', 'read_grammar']
 
